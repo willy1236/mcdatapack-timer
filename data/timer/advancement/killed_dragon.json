@@ -1,12 +1,17 @@
 {
+    "parent": "timer:participants",
     "display": {
         "icon": {
-            "id": "minecraft:dragon_head"
+            "id": "minecraft:dragon_egg"
         },
-        "title": "速通達成！",
-        "description": "擊敗終界龍並完成挑戰",
+        "title": {
+            "text": "速通達成！",
+            "color": "gold"
+        },
+        "description": {
+            "text": "成功擊敗終界龍。"
+        },
         "frame": "challenge",
-        "background": "minecraft:block/end_stone",
         "show_toast": true,
         "announce_to_chat": true
     },

@@ -1,4 +1,6 @@
+advancement revoke @a only timer:participants
 advancement revoke @a only timer:killed_dragon
+advancement grant @a only timer:participants
 scoreboard players reset @a sec
 scoreboard players reset @a min
 scoreboard players reset @a hr

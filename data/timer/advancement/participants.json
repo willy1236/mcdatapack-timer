@@ -1,0 +1,26 @@
+{
+    "parent": "timer:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {
+            "text": "速通挑戰開始",
+            "color": "aqua",
+            "bold": true
+        },
+        "description": {
+            "text": "踏上擊敗終界龍的旅程。"
+        },
+        "frame": "goal",
+        "background": "minecraft:block/end_stone",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "manual": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
