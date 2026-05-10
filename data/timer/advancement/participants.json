@@ -10,7 +10,7 @@
             "bold": true
         },
         "description": {
-            "text": "踏上擊敗終界龍的旅程。"
+            "text": "你能多快完成這個挑戰？"
         },
         "frame": "goal",
         "background": "minecraft:block/end_stone",

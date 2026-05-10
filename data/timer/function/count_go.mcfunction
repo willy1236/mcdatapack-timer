@@ -1,9 +1,9 @@
 advancement revoke @a only timer:participants
 advancement revoke @a only timer:killed_dragon
 advancement grant @a only timer:participants
-scoreboard players reset @a sec
-scoreboard players reset @a min
-scoreboard players reset @a hr
+scoreboard players set @a sec 0
+scoreboard players set @a min 0
+scoreboard players set @a hr 0
 scoreboard players reset @a death
 clear @a[gamemode=survival]
 title @a title "開始！"
